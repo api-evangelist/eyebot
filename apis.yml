@@ -1,7 +1,29 @@
 aid: eyebot
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eyebot.png
 name: Eyebot
-description: Eyebot is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Eyebot is a health-technology company building automated, self-serve vision
+  testing kiosks that generate precise eyeglass prescriptions in minutes without
+  a traditional eye-doctor appointment. The company deploys robotic screening
+  kiosks into retail environments — partnering with large retailers such as
+  Walmart and Sam's Club — to make refractive vision care faster, cheaper, and
+  more accessible. Founded by Matthias Hofmann (CEO) and Jack Moldave (CTO) with
+  Chief Medical Officer Alex Martin OD FAAO, Eyebot raised a $20M Series A and is
+  backed by General Catalyst, Ubiquity Ventures, Village Global, and the National
+  Science Foundation. Eyebot is currently a hardware-and-retail company with no
+  public developer program, API, or SDK surface; this profile tracks its identity
+  in the API Evangelist network pending any future developer offering.
 url: https://raw.githubusercontent.com/api-evangelist/eyebot/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Health Technology
+- Vision Care
+- Eye Care
+- Medical Devices
+- Kiosks
+- Retail Technology
+- Optometry
+- Hardware
 apis: []
+common:
+- type: DomainSecurity
+  url: security/eyebot-domain-security.yml
+- type: Website
+  url: https://www.eyebot.co
+- type: About
+  url: https://www.eyebot.co/company
+- type: Blog
+  url: https://www.eyebot.co/resources?cat=blog
+- type: Support
+  url: https://www.eyebot.co/get-started
+- type: PrivacyPolicy
+  url: https://www.eyebot.co/legal/privacy-policy
+- type: Careers
+  url: https://jobs.ashbyhq.com/eyebot
+- type: LinkedIn
+  url: https://www.linkedin.com/company/eyebotvision/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
